@@ -1,0 +1,86 @@
+body{
+height: 100vh;
+display: grid;
+grid-template-rows: 150px 1fr 100px;
+
+}
+
+header{
+    background: lemonchiffon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quadrado1{
+    background-color: red;
+    height: 70px;
+    width: 70px;
+}
+
+.texto{
+    height: 5vh;
+    width: 5vw;
+    font-size: 2rem;
+}
+
+main{
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.conteudo{
+    width: 100%;
+    height: 100%;
+    background: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+   
+}
+
+.texto2{
+    
+   position: absolute;
+   font-size: 2rem;
+
+}
+
+.quadrado2{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+
+   
+}
+
+footer{
+    background: lightblue;
+    display: flex;
+    justify-content: space-between                     ;
+    align-items: center;
+    
+
+}
+
+.texto3{
+    margin-left: 100px;
+    font-size: 2rem;
+
+}
+
+.conteudo3{
+    margin-left: 300px;
+    display: flex;
+    
+}
+.quadrado3{
+
+    background: red;
+    height: 80px;
+    width: 80px;
+}

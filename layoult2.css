@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+header{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+
+}
+.Nav{
+    background: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Article{
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Aside{
+    background: lemonchiffon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
